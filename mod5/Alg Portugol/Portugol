@@ -1,0 +1,23 @@
+Algoritmo Acordando
+
+var tempop_sairdacama, cafe, banho
+
+inicio 
+escreva ("Quantoo tempo demoro para sair da cama? ");
+leia (tempop_sairdacama);
+
+escreva("Você toma café logo depois de acordar ? ");
+leia (cafe);
+
+se(cafe = Sim){
+    escreva ("Aqui está uma sugestão de café que você gosta: pão com manteiga, ovo com temperos e um café da baggio bem quente.");
+};
+
+senao { escreva("Tudo bem, vamos para o próximo passo.")
+
+};
+
+escreva("Você toma banho de manhã ?")
+leia(banho);
+
+escreva ("Pronto, feito tudo isso, agora você está pronto para começar seu dia.")
